@@ -17,7 +17,7 @@ export default class App extends React.Component {
                     </Nav.Item>
                 </Nav>
                 <Container className="p-5 text-center" bg="secondary" fluid>
-                    <Image src={process.env.PUBLIC_URL + "/logo.webp"} roundedCircle className="w-50" />
+                    <Image src={process.env.PUBLIC_URL + "/logo.webp"} roundedCircle style={{width: "10em"}} />
                     <h1>Welcome to my Web Site</h1>
                 </Container>
                 <Container className="p-5 text-center bg-secondary text-white" fluid>
