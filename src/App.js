@@ -24,29 +24,31 @@ export default class App extends React.Component {
                     <h6>My name is Habibie Lukmanul Hakim, I am {(new Date().getFullYear())-2012} years old</h6>
                 </Container>
                 <h1 className="text-center mt-5" id="ach">My Achievements</h1>
-                <Row>
-                    <Col className="m-3">
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="https://www.sman2tpi.sch.id/images/WhatsApp-Image-2020-10-05-at-184617-678x381.jpeg" />
-                            <Card.Body>
-                                <Card.Title>KSN</Card.Title>
-                                <Card.Text>
-                                    🥈 Silver Medal
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col className="m-3">
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <Card.Title>OSA</Card.Title>
-                                <Card.Text>
-                                    🥇 2<sup>th</sup> Gold Award
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
+                <Container>
+                    <Row>
+                        <Col className="m-3">
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src="https://www.sman2tpi.sch.id/images/WhatsApp-Image-2020-10-05-at-184617-678x381.jpeg" />
+                                <Card.Body>
+                                    <Card.Title>KSN</Card.Title>
+                                    <Card.Text>
+                                        🥈 Silver Medal
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col className="m-3">
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Body>
+                                    <Card.Title>OSA</Card.Title>
+                                    <Card.Text>
+                                        🥇 2<sup>th</sup> Gold Award
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>
                 <h2 className="text-center">Contact Me At</h2>
                 <Row>
                     <Col className="m-3">
