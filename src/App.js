@@ -26,8 +26,8 @@ export default class App extends React.Component {
                 <h1 className="text-center mt-5" id="ach">My Achievements</h1>
                 <Container>
                     <Row>
-                        <Col className="m-3">
-                            <Card style={{ width: '18rem' }}>
+                        <Col>
+                            <Card>
                                 <Card.Img variant="top" src="https://www.sman2tpi.sch.id/images/WhatsApp-Image-2020-10-05-at-184617-678x381.jpeg" />
                                 <Card.Body>
                                     <Card.Title>KSN</Card.Title>
@@ -37,8 +37,8 @@ export default class App extends React.Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col className="m-3">
-                            <Card style={{ width: '18rem' }}>
+                        <Col>
+                            <Card>
                                 <Card.Body>
                                     <Card.Title>OSA</Card.Title>
                                     <Card.Text>
